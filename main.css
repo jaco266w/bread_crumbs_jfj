@@ -1,0 +1,16 @@
+li::after {
+    content: " /";
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+li:last-child::after {
+    content: "";
+}
+
+li {
+    list-style: none;
+}
